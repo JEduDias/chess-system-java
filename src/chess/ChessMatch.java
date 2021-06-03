@@ -23,6 +23,8 @@ public class ChessMatch {
 		return mat;
 	}
 	
+	// 02/06/2021 continue .. 
+	
 	private void placeNewPiece(char column, int row, ChessPiece piece) {
 		board.placePiece(piece, new ChessPosition(column, row).toPosition());
 	}
